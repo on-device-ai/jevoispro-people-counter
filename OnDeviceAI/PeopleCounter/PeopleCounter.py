@@ -270,7 +270,7 @@ class PeopleCounter:
         self.totalDown = 0
         self.totalUp = 0
              
-        # ####################################################################################################
+    # ####################################################################################################
     ## Process function with GUI output
     def processGUI(self, inframe, helper):
         # Start a new display frame, gets its size and also whether mouse/keyboard are idle:
@@ -441,8 +441,4 @@ class PeopleCounter:
         
         # End of frame:
         helper.endFrame()
-
-
-
-
 
